@@ -21,7 +21,7 @@ import org.springframework.web.multipart.MultipartFile;
 import lexico.digital.solicitudes.taller.global.entidades.SolicitudEntidad;
 import lexico.digital.solicitudes.taller.global.repository.SolicitudServicesRepository;
 
-@CrossOrigin(origins = {"https://bright-haupia-8d07b9.netlify.app", "http://localhost:4200"})
+@CrossOrigin(origins = {"https://global-solicitudes-taller.netlify.app", "http://localhost:4200"})
 @RestController
 @RequestMapping("/api/solicitudes/taller/global")
 public class SolicitudControlador {

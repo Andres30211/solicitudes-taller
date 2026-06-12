@@ -20,7 +20,7 @@ import lexico.digital.solicitudes.taller.global.repository.UsuarioServiciosRepos
 import org.springframework.web.bind.annotation.PutMapping;
 
 
-@CrossOrigin(origins = {"https://bright-haupia-8d07b9.netlify.app", "http://localhost:4200"})
+@CrossOrigin(origins = {"https://global-solicitudes-taller.netlify.app", "http://localhost:4200"})
 @RequestMapping("/api/usuario/global")
 @RestController
 public class UsuarioControlador {
